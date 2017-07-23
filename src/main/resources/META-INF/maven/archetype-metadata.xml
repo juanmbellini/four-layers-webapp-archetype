@@ -14,6 +14,37 @@
         </fileSet>
 
 
+        <!-- ***************** -->
+        <!-- Interfaces Module -->
+        <!-- ***************** -->
+        <!-- Interfaces module pom -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-interfaces</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <!-- Interfaces Main java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-interfaces/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <!-- Interfaces Main resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-interfaces/src/main/resources</directory>
+        </fileSet>
+        <!-- Interfaces Test java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-interfaces/src/test/java</directory>
+        </fileSet>
+        <!-- Interfaces Test resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-interfaces/src/test/resources</directory>
+        </fileSet>
+
+
         <!-- ************* -->
         <!-- Webapp Module -->
         <!-- ************* -->
@@ -47,6 +78,101 @@
         <fileSet encoding="UTF-8">
             <directory>__artifactId__-webapp/src/test/resources</directory>
         </fileSet>
+
+
+        <!-- *************** -->
+        <!-- Services Module -->
+        <!-- *************** -->
+        <!-- Services module pom -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-services</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <!-- Services Main java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-services/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <!-- Services Main resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-services/src/main/resources</directory>
+        </fileSet>
+        <!-- Services Test java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-services/src/test/java</directory>
+        </fileSet>
+        <!-- Services Test resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-services/src/test/resources</directory>
+        </fileSet>
+
+
+        <!-- ****************** -->
+        <!-- Persistence Module -->
+        <!-- ****************** -->
+        <!-- Persistence module pom -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-persistence</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <!-- Persistence Main java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-persistence/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <!-- Persistence Main resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-persistence/src/main/resources</directory>
+        </fileSet>
+        <!-- Persistence Test java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-persistence/src/test/java</directory>
+        </fileSet>
+        <!-- Persistence Test resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-persistence/src/test/resources</directory>
+        </fileSet>
+
+
+        <!-- ************* -->
+        <!-- Models Module -->
+        <!-- ************* -->
+        <!-- Models module pom -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-models</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <!-- Models Main java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-models/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <!-- Models Main resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-models/src/main/resources</directory>
+        </fileSet>
+        <!-- Models Test java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-models/src/test/java</directory>
+        </fileSet>
+        <!-- Models Test resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-models/src/test/resources</directory>
+        </fileSet>
+
+
     </fileSets>
 
 </archetype-descriptor>

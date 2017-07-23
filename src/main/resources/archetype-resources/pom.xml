@@ -32,6 +32,10 @@
 
     <modules>
         <module>${artifactId}-webapp</module>
+        <module>${artifactId}-services</module>
+        <module>${artifactId}-persistence</module>
+        <module>${artifactId}-interfaces</module>
+        <module>${artifactId}-models</module>
     </modules>
 
     <!-- Snapshot repository for Jersey -->

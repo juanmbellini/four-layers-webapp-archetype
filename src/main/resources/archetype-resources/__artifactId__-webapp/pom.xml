@@ -20,6 +20,18 @@
     </properties>
 
     <dependencies>
+        <!-- Project modules -->
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-interfaces</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-services</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>runtime</scope>
+        </dependency>
 
         <!-- External libraries -->
         <!-- Servlet stuff -->
