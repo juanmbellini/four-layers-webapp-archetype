@@ -13,11 +13,13 @@ import javax.ws.rs.core.*;
 @Component
 public class HelloWorldController {
 
+    public static final String HELLO_WORLD = "Hello World!";
+
     @Context
     private UriInfo uriInfo;
 
     @GET
-    public Response getUsers() {
-        return Response.ok("Hello World!").build();
+    public Response getHelloWorld() {
+        return Response.ok(HELLO_WORLD).location(uriInfo.getAbsolutePath()).build();
     }
 }

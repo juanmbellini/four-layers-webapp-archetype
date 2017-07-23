@@ -20,6 +20,8 @@
     </properties>
 
     <dependencies>
+
+        <!-- External libraries -->
         <!-- Servlet stuff -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -29,8 +31,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-
-        <!-- External libraries -->
         <!-- Spring stuff -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -43,6 +43,10 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
         </dependency>
 
         <!-- Jersey stuff -->
@@ -69,6 +73,10 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
         </dependency>
 
     </dependencies>
