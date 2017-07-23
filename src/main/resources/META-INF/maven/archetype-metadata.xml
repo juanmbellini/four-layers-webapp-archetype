@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="model-interfaces-persistence-service-webapp-archetype">
+
+    <fileSets>
+        <!-- *********** -->
+        <!-- Root Module -->
+        <!-- *********** -->
+        <!-- Root Project pom -->
+        <fileSet filtered="true">
+            <directory/>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+
+
+        <!-- ************* -->
+        <!-- Webapp Module -->
+        <!-- ************* -->
+        <!-- Webapp module pom -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-webapp</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <!-- Webapp Main java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-webapp/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <!-- Webapp Main resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-webapp/src/main/resources</directory>
+        </fileSet>
+        <!-- Webapp Main webapp WEB-INF -->
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>__artifactId__-webapp/src/main/webapp</directory>
+        </fileSet>
+        <!-- Webapp Test java -->
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>__artifactId__-webapp/src/test/java</directory>
+        </fileSet>
+        <!-- Webapp Test resources -->
+        <fileSet encoding="UTF-8">
+            <directory>__artifactId__-webapp/src/test/resources</directory>
+        </fileSet>
+    </fileSets>
+
+</archetype-descriptor>
