@@ -16,6 +16,7 @@
         <!-- Build -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+        <maven-war-plugin.version>3.1.0</maven-war-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
 
@@ -25,6 +26,9 @@
         <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
         <jersey.version>3.0-SNAPSHOT</jersey.version>
         <com.fasterxml.jackson.version>2.7.4</com.fasterxml.jackson.version>
+        <org.slf4j.version>1.7.5</org.slf4j.version>
+        <logback.version>1.1.2</logback.version>
+        <logback-ext-spring.version>0.1.1</logback-ext-spring.version>
 
         <org.junit.version>4.12</org.junit.version>
         <org.mockito.version>1.9.5</org.mockito.version>
@@ -114,6 +118,34 @@
                 <version>${com.fasterxml.jackson.version}</version>
             </dependency>
 
+            <!-- Logging -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${org.slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${org.slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.logback-extensions</groupId>
+                <artifactId>logback-ext-spring</artifactId>
+                <version>${logback-ext-spring.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
 
             <!-- JUnit stuff -->
             <dependency>
@@ -143,6 +175,16 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <!-- Maven war plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>${maven-war-plugin.version}</version>
+                <configuration>
+                    <packagingExcludes>**/logback-test.xml</packagingExcludes>
                 </configuration>
             </plugin>
 

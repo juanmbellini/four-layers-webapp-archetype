@@ -32,7 +32,7 @@
             </includes>
         </fileSet>
         <!-- Interfaces Main resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-interfaces/src/main/resources</directory>
         </fileSet>
         <!-- Interfaces Test java -->
@@ -40,7 +40,7 @@
             <directory>__artifactId__-interfaces/src/test/java</directory>
         </fileSet>
         <!-- Interfaces Test resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-interfaces/src/test/resources</directory>
         </fileSet>
 
@@ -63,7 +63,7 @@
             </includes>
         </fileSet>
         <!-- Webapp Main resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-webapp/src/main/resources</directory>
         </fileSet>
         <!-- Webapp Main webapp WEB-INF -->
@@ -75,7 +75,7 @@
             <directory>__artifactId__-webapp/src/test/java</directory>
         </fileSet>
         <!-- Webapp Test resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-webapp/src/test/resources</directory>
         </fileSet>
 
@@ -98,7 +98,7 @@
             </includes>
         </fileSet>
         <!-- Services Main resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-services/src/main/resources</directory>
         </fileSet>
         <!-- Services Test java -->
@@ -106,7 +106,7 @@
             <directory>__artifactId__-services/src/test/java</directory>
         </fileSet>
         <!-- Services Test resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-services/src/test/resources</directory>
         </fileSet>
 
@@ -129,7 +129,7 @@
             </includes>
         </fileSet>
         <!-- Persistence Main resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-persistence/src/main/resources</directory>
         </fileSet>
         <!-- Persistence Test java -->
@@ -137,7 +137,7 @@
             <directory>__artifactId__-persistence/src/test/java</directory>
         </fileSet>
         <!-- Persistence Test resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-persistence/src/test/resources</directory>
         </fileSet>
 
@@ -160,7 +160,7 @@
             </includes>
         </fileSet>
         <!-- Models Main resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-models/src/main/resources</directory>
         </fileSet>
         <!-- Models Test java -->
@@ -168,7 +168,7 @@
             <directory>__artifactId__-models/src/test/java</directory>
         </fileSet>
         <!-- Models Test resources -->
-        <fileSet encoding="UTF-8">
+        <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-models/src/test/resources</directory>
         </fileSet>
 
