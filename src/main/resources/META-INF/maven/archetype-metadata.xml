@@ -41,6 +41,9 @@
         <!-- Interfaces Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>__artifactId__-interfaces/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
         </fileSet>
         <!-- Interfaces Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
@@ -82,6 +85,9 @@
         <!-- Webapp Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>__artifactId__-webapp/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
         </fileSet>
         <!-- Webapp Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
@@ -119,6 +125,9 @@
         <!-- Services Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>__artifactId__-services/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
         </fileSet>
         <!-- Services Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
@@ -156,6 +165,9 @@
         <!-- Persistence Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>__artifactId__-persistence/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
         </fileSet>
         <!-- Persistence Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
@@ -193,6 +205,9 @@
         <!-- Models Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>__artifactId__-models/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
         </fileSet>
         <!-- Models Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
