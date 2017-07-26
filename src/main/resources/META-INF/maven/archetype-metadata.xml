@@ -34,6 +34,9 @@
         <!-- Interfaces Main resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-interfaces/src/main/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
         <!-- Interfaces Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -42,6 +45,9 @@
         <!-- Interfaces Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-interfaces/src/test/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
 
 
@@ -65,6 +71,9 @@
         <!-- Webapp Main resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-webapp/src/main/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
         <!-- Webapp Main webapp WEB-INF -->
         <fileSet filtered="true" encoding="UTF-8">
@@ -77,6 +86,9 @@
         <!-- Webapp Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-webapp/src/test/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
 
 
@@ -100,6 +112,9 @@
         <!-- Services Main resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-services/src/main/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
         <!-- Services Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -108,6 +123,9 @@
         <!-- Services Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-services/src/test/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
 
 
@@ -131,6 +149,9 @@
         <!-- Persistence Main resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-persistence/src/main/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
         <!-- Persistence Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -139,6 +160,9 @@
         <!-- Persistence Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-persistence/src/test/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
 
 
@@ -162,6 +186,9 @@
         <!-- Models Main resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-models/src/main/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
         <!-- Models Test java -->
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -170,6 +197,9 @@
         <!-- Models Test resources -->
         <fileSet encoding="UTF-8" filtered="true">
             <directory>__artifactId__-models/src/test/resources</directory>
+            <excludes>
+                <exclude>**/*.gitkeep</exclude>
+            </excludes>
         </fileSet>
 
 
