@@ -1,4 +1,4 @@
-# Models-Interfaces-Persistence-Services-WebApp Archetype
+# Models-Interfaces-Persistence-Services-WebApp Archetype [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
 A Maven archetype for a multi-module project, which includes model, interfaces, persistence, service and webapp modules
 
