@@ -1,4 +1,4 @@
-package ${package}.interfaces.app_interfaces;
+package ${package}.interfaces;
 
 /**
  * A sample interface

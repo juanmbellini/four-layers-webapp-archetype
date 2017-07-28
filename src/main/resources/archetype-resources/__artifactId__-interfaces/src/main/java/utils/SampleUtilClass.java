@@ -1,4 +1,4 @@
-package ${package}.interfaces.utils;
+package ${package}.utils;
 
 /**
  * A sample util class

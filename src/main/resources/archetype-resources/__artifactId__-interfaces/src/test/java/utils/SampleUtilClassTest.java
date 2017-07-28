@@ -1,6 +1,6 @@
-package ${package}.interfaces.utils;
+package ${package}.utils;
 
-import ${package}.interfaces.test_config.TestConfig;
+import ${package}.test_config.UtilsTestConfig;
 
 
 import org.junit.runner.RunWith;
@@ -14,7 +14,7 @@ import org.junit.Assert;
  * A sample test for a sample util class
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = TestConfig.class)
+@ContextConfiguration(classes = UtilsTestConfig.class)
 public class SampleUtilClassTest {
 
     // Add utils methods tests here...

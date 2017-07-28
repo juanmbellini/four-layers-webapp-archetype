@@ -1,4 +1,4 @@
-package ${package}.interfaces.exceptions;
+package ${package}.exceptions;
 
 /**
  * A custom exception
