@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-descriptor name="model-interfaces-persistence-service-webapp-archetype">
+<archetype-descriptor name="four-layers-webapp-archetype">
 
     <fileSets>
         <!-- *********** -->

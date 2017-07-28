@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bellotapps.archetypes</groupId>
-    <artifactId>model-interfaces-persistence-service-webapp-archetype</artifactId>
+    <artifactId>four-layers-webapp-archetype</artifactId>
     <version>1.0.0-RELEASE</version>
     <packaging>maven-archetype</packaging>
 
@@ -159,13 +159,13 @@
 
     <scm>
         <connection>
-            scm:git:git://github.com/juanmbellini/model-interfaces-persistence-service-webapp-archetype.git
+            scm:git:git://github.com/juanmbellini/four-layers-webapp-archetype.git
         </connection>
         <developerConnection>
-            scm:git:ssh://github.com:juanmbellini/model-interfaces-persistence-service-webapp-archetype.git
+            scm:git:ssh://github.com:juanmbellini/four-layers-webapp-archetype.git
         </developerConnection>
         <url>
-            http://github.com/juanmbellini/model-interfaces-persistence-service-webapp-archetype/tree/master
+            http://github.com/juanmbellini/four-layers-webapp-archetype/tree/master
         </url>
     </scm>
 </project>

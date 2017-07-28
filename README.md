@@ -1,4 +1,4 @@
-# Models-Interfaces-Persistence-Services-WebApp Archetype [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+# Four Layers Webapp Archetype [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
 A Maven archetype for a multi-module project, which includes model, interfaces, persistence, service and webapp modules
 
@@ -58,12 +58,12 @@ These instructions will install the archetype into your local machine
 1. Clone the repository or download source code:
 
 	```
-	$ git clone https://github.com/juanmbellini/model-interfaces-persistence-service-webapp-archetype.git
+	$ git clone https://github.com/juanmbellini/four-layers-webapp-archetype.git
 	```
 	or
 	
 	```
-	$ wget https://github.com/juanmbellini/model-interfaces-persistence-service-webapp-archetype/archive/master.zip
+	$ wget https://github.com/juanmbellini/four-layers-webapp-archetype/archive/master.zip
 	```
 
 2. Install Maven
@@ -84,10 +84,10 @@ These instructions will install the archetype into your local machine
 
 ### Build
 
-1. Change working directory to ```<PROJECT-ROOT>/model-interfaces-persistence-service-webapp-archetype```
+1. Change working directory to ```./four-layers-webapp-archetype```
 
 	```
-	$ cd <PROJECT-ROOT>/model-interfaces-persistence-service-webapp-archetype
+	$ cd ./four-layers-webapp-archetype
 	```
 	
 2. Install the archetype
@@ -104,7 +104,7 @@ These instructions will install the archetype into your local machine
 	$ mvn archetype:generate -DarchetypeCatalog=local
 	```
 
-2. Select the ```com.bellotapps.archetypes:model-interfaces-persistence-service-webapp-archetype``` option.
+2. Select the ```com.bellotapps.archetypes:four-layers-webapp-archetype``` option.
 
 3.	Follow the instructions, setting ```groupId```, ```artifactId```, ```version``` and ```package```.
 
