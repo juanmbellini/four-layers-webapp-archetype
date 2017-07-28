@@ -6,7 +6,7 @@
 
     <groupId>com.bellotapps.archetypes</groupId>
     <artifactId>four-layers-webapp-archetype</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.1-RELEASE</version>
     <packaging>maven-archetype</packaging>
 
     <name>Four Layers Webapp Archetype</name>
