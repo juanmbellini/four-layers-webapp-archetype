@@ -5,5 +5,92 @@ package ${package}.models;
  */
 public class SampleModel {
 
-    // Define model properties and methods here...
+
+    /**
+     * THe model's id.
+     */
+    private long id;
+
+    /**
+     * The model's name.
+     */
+    private String name;
+
+    // Define more properties here...
+
+
+    /**
+     * Constructor.
+     *
+     * @param name The name for the model.
+     */
+    public SampleModel(String name) {
+        update(name);
+    }
+
+    /**
+     * Updates this object.
+     *
+     * @param name The new name for the object.
+     */
+    public void update(String name) {
+        validate(name);
+        this.name = name;
+    }
+
+    /**
+     * @return The model's id.
+     */
+    public long getId() {
+        return id;
+    }
+
+    /**
+     * @return The model's name.
+     */
+    public String getName() {
+        return name;
+    }
+
+    // Add more getters here...
+
+    /**
+     * Validates the given arguments
+     *
+     * @param name The name to be validated
+     * @throws IllegalArgumentException If any argument is wrong.
+     */
+    private void validate(String name) throws IllegalArgumentException {
+        // Add validations here...
+    }
+
+    // Add more private methods here...
+
+    /**
+     * Equals based on the id.
+     *
+     * @param obj The object to be compared with.
+     * @return {@code true} if they are the same object, or {@code false} otherwise.
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+
+        SampleModel other = (SampleModel) obj;
+
+        return this.id == other.id;
+    }
+
+    /**
+     * @return The hashcode based on the id.
+     */
+    @Override
+    public int hashCode() {
+        return (int) (id ^ (id >>> 32));
+    }
 }
