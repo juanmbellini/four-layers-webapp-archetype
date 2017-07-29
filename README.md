@@ -35,9 +35,13 @@ The webapp module implements the application controllers (REST endpoints), and i
 	* Spring core
 	* Spring web
 	* Spring context
+	* Spring TX
+	* Spring ORM
 	* Spring test
 * Jersey Servlet Containers
 * Jackson JSON provider
+* Hibernate
+* JPA (Provided by Hibernate)
 * SLF4J API
 * Logback
 	* Logback classing

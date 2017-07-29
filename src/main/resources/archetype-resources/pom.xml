@@ -26,6 +26,11 @@
         <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
         <jersey.version>3.0-SNAPSHOT</jersey.version>
         <com.fasterxml.jackson.version>2.7.4</com.fasterxml.jackson.version>
+        <org.postgresql.version>9.3-1102-jdbc41</org.postgresql.version>
+        <org.hibernate.version>5.1.0.Final</org.hibernate.version>
+        <org.hibernate.jpa.version>1.0.0.Final</org.hibernate.jpa.version>
+        <hibernate-java8-version>5.0.4.Final</hibernate-java8-version>
+        <org.hsqldb.version>2.3.1</org.hsqldb.version>
         <org.slf4j.version>1.7.5</org.slf4j.version>
         <logback.version>1.1.2</logback.version>
         <logback-ext-spring.version>0.1.1</logback-ext-spring.version>
@@ -83,6 +88,16 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${org.springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-orm</artifactId>
+                <version>${org.springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${org.springframework.version}</version>
                 <scope>test</scope>
@@ -116,6 +131,41 @@
                 <groupId>com.fasterxml.jackson.jaxrs</groupId>
                 <artifactId>jackson-jaxrs-json-provider</artifactId>
                 <version>${com.fasterxml.jackson.version}</version>
+            </dependency>
+
+            <!-- Database -->
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${org.postgresql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${org.hsqldb.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- Hibernate -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <version>${org.hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-entitymanager</artifactId>
+                <version>${org.hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate.javax.persistence</groupId>
+                <artifactId>hibernate-jpa-2.1-api</artifactId>
+                <version>${org.hibernate.jpa.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-java8</artifactId>
+                <version>${hibernate-java8-version}</version>
             </dependency>
 
             <!-- Logging -->
