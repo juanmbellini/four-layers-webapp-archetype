@@ -1,4 +1,4 @@
-# Four Layers Webapp Archetype [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+# Four Layers Webapp Archetype [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0) [![Maven Central](https://img.shields.io/maven-central/v/com.bellotapps.archetypes/four-layers-webapp-archetype.svg)](https://repo.maven.apache.org/maven2/com/bellotapps/archetypes/four-layers-webapp-archetype/1.0.1-RELEASE)
 
 A Maven archetype for a multi-module project, which includes model, interfaces, persistence, service and webapp modules
 
