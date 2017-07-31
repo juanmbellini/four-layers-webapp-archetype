@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="four-layers-webapp-archetype">
 
+
+    <requiredProperties>
+
+        <requiredProperty key="version">
+            <defaultValue>0.0.1-SNAPSHOT</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="package">
+            <defaultValue>${groupId}.${artifactId}</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="dbHost">
+            <defaultValue>localhost</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="dbPort">
+            <defaultValue>5432</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="dbName">
+            <defaultValue>${artifactId}</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="dbUsername">
+            <defaultValue>${artifactId}</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="dbPassword"/>
+    </requiredProperties>
+
+
     <fileSets>
+
+        <!-- ******************* -->
+        <!-- Configuration files -->
+        <!-- ******************* -->
+        <!-- Flyway configuration file -->
+        <fileSet filtered="true">
+            <directory/>
+            <includes>
+                <include>flyway.conf</include>
+            </includes>
+        </fileSet>
+
         <!-- *********** -->
         <!-- Root Module -->
         <!-- *********** -->

@@ -14,7 +14,7 @@ import java.net.URI;
  * Configuration class. Add Spring Beans here.
  */
 @Configuration
-@ComponentScan({"${package}.webapp",})
+@ComponentScan({"${package}.webapp.controller",})
 public class TestConfig {
 
     // Add your Spring Beans here...
