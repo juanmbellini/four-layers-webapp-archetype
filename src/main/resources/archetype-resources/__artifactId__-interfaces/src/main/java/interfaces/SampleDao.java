@@ -3,6 +3,7 @@ package ${package}.interfaces;
 import ${package}.models.SampleModel;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * A sample dao interface to manipulate {@link SampleModel} data.
@@ -20,9 +21,9 @@ public interface SampleDao {
      * Gets a {@link SampleModel} by its id.
      *
      * @param id The {@link SampleModel}'s id.
-     * @return The {@link SampleModel} with the given {@code id}.
+     * @return The {@link SampleModel} with the given {@code id}, wrapped in an {@link Optional}.
      */
-    SampleModel getById(long id);
+    Optional<SampleModel> getById(long id);
 
     /**
      * Creates a new {@link SampleModel}.
@@ -35,9 +36,10 @@ public interface SampleDao {
     /**
      * Updates the given {@link SampleModel}.
      *
-     * @param sampleModel The already modified {@link SampleModel}.
+     * @param sampleModel The {@link SampleModel} to be modified.
+     * @param name The new name for the given {@link SampleModel}
      */
-    void update(SampleModel sampleModel);
+    void update(SampleModel sampleModel, String name);
 
     /**
      * Deletes the given {@link SampleModel}.

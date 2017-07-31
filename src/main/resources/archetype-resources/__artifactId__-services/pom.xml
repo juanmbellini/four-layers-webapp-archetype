@@ -26,6 +26,12 @@
             <artifactId>${artifactId}-interfaces</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${artifactId}-persistence</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>runtime</scope>
+        </dependency>
 
         <!-- External Libraries -->
         <!-- Spring stuff -->

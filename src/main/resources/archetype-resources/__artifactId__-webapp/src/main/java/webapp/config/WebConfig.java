@@ -4,7 +4,6 @@ package ${package}.webapp.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.FilterType;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySources;
 import org.springframework.context.annotation.PropertySource;
@@ -28,7 +27,9 @@ import java.util.Properties;
  * Configuration class. Add Spring Beans here.
  */
 @Configuration
-@ComponentScan({"${package}.webapp.controller",})
+@ComponentScan({"${package}.webapp.controller",
+        "${package}.persistence",
+})
 @PropertySources({
         @PropertySource(value = "classpath:config/database.properties"),
         @PropertySource(value = "classpath:config/secrets.properties"),

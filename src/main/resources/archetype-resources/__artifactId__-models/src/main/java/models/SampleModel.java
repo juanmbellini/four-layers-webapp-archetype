@@ -31,6 +31,12 @@ public class SampleModel {
 
     // Define more properties here...
 
+    /**
+     * Default constructor used by Hibernate
+     */
+    /* package */ SampleModel() {
+        // For Hibernate
+    }
 
     /**
      * Constructor.
