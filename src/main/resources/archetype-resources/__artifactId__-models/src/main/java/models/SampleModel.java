@@ -1,19 +1,32 @@
 package ${package}.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Column;
+import javax.persistence.GenerationType;
+
 /**
  * A sample model
  */
+@Entity
+@Table(name = "Sample_Models")
 public class SampleModel {
 
 
     /**
      * THe model's id.
      */
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", columnDefinition = "serial")
     private long id;
 
     /**
      * The model's name.
      */
+    @Column(length = 64, nullable = false)
     private String name;
 
     // Define more properties here...
