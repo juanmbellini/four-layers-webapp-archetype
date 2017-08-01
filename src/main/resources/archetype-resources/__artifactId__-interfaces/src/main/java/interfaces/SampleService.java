@@ -3,6 +3,7 @@ package ${package}.interfaces;
 import ${package}.models.SampleModel;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * A sample service interface to expose services related to {@link SampleModel} objects.
@@ -22,7 +23,7 @@ public interface SampleService {
      * @param id The {@link SampleModel}'s id.
      * @return The {@link SampleModel} with the given {@code id}.
      */
-    SampleModel getById(long id);
+    Optional<SampleModel> getById(long id);
 
     /**
      * Creates a new {@link SampleModel}.
