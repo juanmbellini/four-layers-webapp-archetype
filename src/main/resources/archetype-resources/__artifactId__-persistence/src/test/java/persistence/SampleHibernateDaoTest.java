@@ -30,7 +30,7 @@ import java.util.Optional;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = PersistenceTestConfig.class)
-public class SampleDaoTest {
+public class SampleHibernateDaoTest {
 
     // Add utils methods tests here...
 
